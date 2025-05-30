@@ -115,8 +115,8 @@ http://localhost:5000
 
 | Nome          | Contato                                         |
 | ------------- | ----------------------------------------------- |
-| Gabriela Borba | [gborbas.gb@gmail.com ]|
-| Laísa Albuquerque | [laisaa275@gmail.com ]|
+| Gabriela Borba | gborbas.gb@gmail.com |
+| Laísa Albuquerque | laisaa275@gmail.com |
 
 ---
 
