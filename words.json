@@ -1,0 +1,27 @@
+[
+    {
+        "word": "cachorro",
+        "image": "cachorro.jpeg",
+        "hint": "Animal doméstico que late"
+    },
+    {
+        "word": "gato",
+        "image": "gato.jpeg",
+        "hint": "Animal doméstico que mia"
+    },
+    {
+        "word": "sapo",
+        "image": "sapo.jpeg",
+        "hint": "Animal é verde"
+    },
+    {
+        "word": "macaco",
+        "image": "macaco.jpeg",
+        "hint": "Animal adora banana"
+    },
+    {
+        "word": "hamster",
+        "image": "hamster.jpeg",
+        "hint": "Animal que é pequeno"
+    }
+]

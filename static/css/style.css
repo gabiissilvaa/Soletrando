@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game-container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+#score-correct {
+    color: #27ae60;
+}
+
+.image-container {
+    margin: 20px 0;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #e9ecef;
+}
+
+#word-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.hint {
+    font-style: italic;
+    color: #6c757d;
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 8px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.scrambled-letters, .answer-area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 20px 0;
+    min-height: 50px;
+}
+
+.letter, .letter-slot {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+}
+
+.letter {
+    background-color: #4dabf7;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.letter:hover {
+    background-color: #339af0;
+    transform: translateY(-3px);
+}
+
+.letter-slot {
+    background-color: #f8f9fa;
+    border: 2px dashed #ced4da;
+}
+
+.letter-slot.filled {
+    background-color: #e7f5ff;
+    border: 2px solid #4dabf7;
+}
+
+.message {
+    margin: 15px 0;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: none;
+}
+
+.message.success {
+    background-color: #d3f9d8;
+    color: #2b8a3e;
+    display: block;
+}
+
+.message.error {
+    background-color: #ffebe9;
+    color: #c92a2a;
+    display: block;
+}
+
+.message.info {
+    background-color: #d6eaf8;
+    color: #2874a6;
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .game-container {
+        padding: 15px;
+    }
+    
+    .letter, .letter-slot {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
