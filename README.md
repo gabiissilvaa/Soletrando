@@ -1,127 +1,90 @@
+
 # 🎮 Jogo de Soletração
+<div align="center">
+  
+*Uma forma divertida de aprender vocabulário!*
 
-Um jogo interativo para auxiliar no aprendizado de crianças pequenas, onde o jogador precisa soletrar corretamente o nome de um animal a partir de uma imagem, dica e letras embaralhadas.
+</div>
 
----
+  ## 🌟 Sobre o projeto
+  O Jogo de Soletração é uma aplicação web educativa desenvolvida para ajudar crianças no aprendizado de vocabulário de forma lúdica. O jogador deve: 
+- Identificar o animal pela imagem;
+- Analisar a dica fornecida;
+- Organizar as letras embaralhadas;
+- Formar corretamente a palavra.
 
-## 📌 Sobre o Projeto
+  
+__🛠️ Tecnologias Utilizadas:__
 
-O *Jogo de Soletração* é uma aplicação web desenvolvida com *Python (Flask)* e *HTML/CSS/JS*, que tem como objetivo principal tornar o aprendizado de vocabulário mais divertido. Ao acessar a página, o jogador vê uma imagem, uma dica e letras embaralhadas. A missão é formar corretamente a palavra relacionada à imagem apresentada.
+| Tecnologias          | Funções                                             |
+|----------------|-----------------------------------------------------------|
+| **🧪 Flask**   | Framework para criação de aplicações web interativas |
+| **🐍 Python**      | Utilizada para desenvolver toda a lógica do backend da aplicação  |
+| **📄 HTML**      | Usado para estruturar o conteúdo da página web |
+| **🎨 CSS**      | Usado para estilizar a página web |
+| **🟨 JavaScript**      | Usado para adicionar interatividade na página web |
+| **⬢ JSON**      | Usado para armazenar dados estruturados |
 
----
-
-## 🛠 Tecnologias Utilizadas
-
-* *Python 3.12+*
-* *Flask* (microframework para web)
-* *HTML5, CSS3 e JavaScript*
-* *Node.js v20+* (para gerenciar possíveis dependências front-end ou ambiente de desenvolvimento, se aplicável)
-
----
-
-## 📁 Estrutura do Projeto
-
-
-soletrando/
-│
-├── app.py                    # Servidor Flask principal
-├── words.json                # Lista de palavras, imagens e dicas
-│
-├── templates/
-│   └── index.html            # Página principal do jogo
-│
-├── static/
-│   ├── css/
-│   │   └── style.css         # Estilos do jogo
-│   ├── js/
-│   │   └── script.js         # Lógica da interação do jogo
-│   └── images/
-│       ├── cachorro.jpeg
-│       ├── gato.jpeg
-│       ├── sapo.jpeg
-│       ├── macaco.jpeg
-│       └── hamster.jpeg
-│
-└── README.md                 # Este arquivo
+<br>
 
 
----
+> **🚀 Como Executar a Aplicação:**
+> 
+> Siga estes passos simples para rodar o dashboard localmente:
+> 
+> 1. **Clone o repositório:**
+>    ```bash
+>    git clone https://github.com/seu-usuario/soletrando.git
+>    cd soletrando
+>    ```
+> 
+> 2. **Instale o flask:**
+>    ```bash
+>    pip install flask
+>    ```
+> 
+> 3. **Executar a aplicação:**
+>    ```bash
+>    python app.py
+>    ```
+> 
 
-## 🔄 Funcionamento
+<br>
 
-1. O servidor Flask inicia e carrega o conteúdo do words.json.
-2. A rota /get_random_words retorna 5 palavras aleatórias com:
+__🔄 Funcionamento__
 
-   * A palavra correta
-   * A palavra embaralhada
-   * Uma dica
-   * A imagem correspondente
-3. O front-end exibe a imagem, a dica e as letras embaralhadas para o usuário montar a palavra.
-4. O usuário interage com o jogo tentando formar a palavra correta.
+**1.** O servidor Flask inicia e carrega o conteúdo do words.json.
 
----
+**2.** A rota /get_random_words retorna 5 palavras aleatórias com:
+   - A palavra correta
+   - A palavra embaralhada
+   - Uma dica
+   - A imagem correspondente
+     
+**3.** O front-end exibe a imagem, a dica e as letras embaralhadas para o usuário montar a palavra.
+     
+**4.** O usuário interage com o jogo tentando formar a palavra correta.
 
-## 📦 Dependências
+<br>
 
-Certifique-se de ter os seguintes recursos instalados:
+**👨‍💻 Desenvolvedora**
 
-### Backend
+<div align="center">
 
-* Python 3.12+
-* Flask
+**Gabriela Silva**  
+*Cientista da Computação | Desenvolvedora*
+</div>
 
-### Frontend
+<br>
 
-* Node.js v20+ (recomendado caso precise usar ferramentas como bundlers, preprocessadores ou frameworks JS)
+<div align="center">
+  
+*Entre em contato!*
+</div>
 
-### Instalação de dependências Python
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color:FFF)](https://www.linkedin.com/in/gabrielab-da-silva/)
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=FF00F6&color:FFF)](https://github.com/gabiissilvaa)
 
-bash
-pip install flask
-
-
----
-
-## ▶ Como Executar o Projeto
-
-1. Clone o repositório:
-
-bash
-git clone https://github.com/seu-usuario/soletrando.git
-cd soletrando
-
-
-2. Instale o Flask (se ainda não instalado):
-
-bash
-pip install flask
-
-
-3. Execute a aplicação:
-
-bash
-python app.py
-
-
-4. Acesse no navegador:
-
-
-http://localhost:5000
-
-
----
-
-## 👨‍💻 Desenvolvedor
-
-| Nome          | Contato                                         |
-| ------------- | ----------------------------------------------- |
-| Gabriela Borba | gborbas.gb@gmail.com |
-| Laísa Albuquerque | laisaa275@gmail.com |
-
----
-
-## 📜 Licença
-
-Este projeto é livre para uso educacional e está licenciado sob a [MIT License](LICENSE).
-
----
+</div>
